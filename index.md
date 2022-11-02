@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Tristan Dyck"
 ---
 
 ## Contact
