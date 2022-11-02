@@ -29,6 +29,21 @@ This will install Jekyll. We then type the following on a **new** command prompt
 
 ## Setup
 
+### Writing a Resume in Markdown and Visual Studio Code
+
+Writing Markdown within Visual Studio Code is superior to regular text editors as it allows you to preview your documents. To get started we must do the following:
+
+- Open Visual Studio Code
+- Click "*File*" at the top left, and select "*New File*"
+- Name this file as "*resume.md*" and save.
+- Click the icon in the top right with the magnifine glass, this will enable preview mode.
+
+Now you can get started writing your Resume using Markdown, refer to More Resources for Markdown documentation.
+
+### Demoing in Jekyll
+
+Using Github Pages exclusively can be annoying if you want to quickly preview changes to your website, as it can take several minutes to update. Here we describe how to set up a local website using Jekyll.
+
 - Download [Beatiful Jekyll](https://github.com/daattali/beautiful-jekyll) by clicking the green "*Code*" button, then "*Download ZIP*", and drag the unzipped contents into your folder.
 - Open a new command prompt and navigate to your website folder using the `cd` command.
     - Use `cd` in the following manner: `cd "<path>"` to go to the file path desired.
@@ -51,12 +66,11 @@ Now, enter the following commands into the command prompt:
 Finally, add this heading to the top of your Resume file:
 
     ---
-    layout: post
-    title: your resume
-    subtitle: your subtitle
+    layout: default
+    title: your title
     ---
 
-Feel free to customize the title and subtitle to your liking, but **do not** change the layout.
+Feel free to customize the title to your liking, but **do not** change the layout.
 
 ## Public Hosting
 
