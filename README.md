@@ -37,7 +37,7 @@ Writing Markdown within Visual Studio Code is superior to regular text editors a
 - Name this file as "*resume.md*" and save.
 - Click the icon in the top right with the magnifine glass, this will enable preview mode.
 
-Now you can get started writing your Resume using Markdown, refer to More Resources for Markdown documentation.
+Now you can get started writing your Resume using Markdown, refer to [More Resources](https://github.com/tristand246/tristand246.github.io#more-resources) for Markdown documentation.
 
 ### Demoing in Jekyll
 
