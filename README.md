@@ -44,24 +44,26 @@ Now you can get started writing your Resume using Markdown, refer to More Resour
 
 Using Github Pages exclusively can be annoying if you want to quickly preview changes to your website, as it can take several minutes to update. Here we describe how to set up a local website using Jekyll.
 
-- Download [Beatiful Jekyll](https://github.com/daattali/beautiful-jekyll) by clicking the green "*Code*" button, then "*Download ZIP*", and drag the unzipped contents into your folder.
-- Open a new command prompt and navigate to your website folder using the `cd` command.
-    - Use `cd` in the following manner: `cd "<path>"` to go to the file path desired.
-    - Example: `cd "C:\Users\Bob\Desktop\website folder"`.
+- Download the [Researcher Theme](https://github.com/ankitsultana/researcher) by clicking the green "*Code*" button, then "*Download ZIP*".
+- Drag the "*_layouts*", "*_sass*", and "*css*" folders into your own.
 
-Now, enter the following commands into the command prompt:
+Create a new file named "*_config.yml*" and paste the following contents into it:
 
-    bundler
-    bundle add tzinfo-data
-    bundle add webrick
-    bundler exec jekyll s
+    title: "Resume"
+    url: "<your github username>.github.io"
+    baseurl: ""
 
+Modify the URL variable to fit with your username. Example: `url: "bob123.github.io"`
+
+- Open a new command prompt.
+- Enter `jekyll s -s "<path to your website folder>"`
+    - Example of a file path: `"C:\Users\Bob\Desktop\website folder"`.
 - Enter [127.0.0.1:4000](http://127.0.0.1:4000/) into your browser's address bar to preview your website.
 
 ### Adding your Resume
 
-- Create your Resume using [Markdown](https://markdown-guide.readthedocs.io/en/latest/) and drag it into the "*_posts*" folder.
-- Rename your Resume to the following naming format: "*year-month-day-title.md*", example: `2022-10-31-resume.md`.
+- Drag your Resume into your website folder, if you have not yet done so.
+- Rename your Resume to the following: "index.md*".
 
 Finally, add this heading to the top of your Resume file:
 
