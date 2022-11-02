@@ -2,7 +2,7 @@
 
 ![website demo gif](demo.gif)
 
-We will be publically hosting a Resume written in markdown. There are great advantages to hosting a Resume website as opposed to storing and submitting a PDF. As expressed in Andrew Etters book, [Modern Technical Writing](https://github.com/tristand246/tristand246.github.io#more-resources), websites can be updated almost instantaniously. Whereas a PDF needs to be resubmitted and version control is harder to maintain, especially if you keep multiple versions saved at once. To do this, there are several things we must install and setup beforehand.
+We will be publically hosting a Resume written in markdown.
 
 ## Getting started
 
@@ -32,7 +32,7 @@ This will install Jekyll. We then type the following on a **new** command prompt
 
 ### Writing a Resume in Markdown and Visual Studio Code
 
-Writing Markdown within Visual Studio Code is superior to regular text editors as it allows you to preview your documents. To get started we must do the following:
+Writing Markdown within Visual Studio Code is superior to regular text editors as it allows you to preview your documents. The book [Modern Technical Writing](https://github.com/tristand246/tristand246.github.io#more-resources) by Andrew Etter, highly advises writing in light markup languages, like Markup, as opposed to more verbose langauges such as HTML and CSS. Writing in these more verbose languages requires much more time and effort to reach the same end goal. They require more tedious work, which creates more opportunities for mistakes to be made. Hence we are creating a Resume in Markdown, to do so follow these instructions:
 
 - Open Visual Studio Code
 - Click "*File*" at the top left, and select "*New File*"
@@ -41,30 +41,10 @@ Writing Markdown within Visual Studio Code is superior to regular text editors a
 
 Now you can get started writing your Resume using Markdown, refer to [More Resources](https://github.com/tristand246/tristand246.github.io#more-resources) for Markdown documentation.
 
-### Demoing in Jekyll
-
-Using Github Pages exclusively can be annoying if you want to quickly preview changes to your website, as it can take several minutes to update. Here we describe how to set up a local website using Jekyll.
-
-- Download the [Researcher Theme](https://github.com/tristand246/tristand246.github.io#more-resources) by clicking the green "*Code*" button, then "*Download ZIP*".
-- Drag the "*_layouts*", "*_sass*", and "*css*" folders into your own.
-
-Create a new file named "*_config.yml*" and paste the following contents into it:
-
-    title: "Resume"
-    url: "<your github username>.github.io"
-    baseurl: ""
-
-Modify the URL variable to fit with your username. Example: `url: "bob123.github.io"`
-
-- Open a new command prompt.
-- Enter `jekyll s -s "<path to your website folder>"`
-    - Example of a file path: `"C:\Users\Bob\Desktop\website folder"`.
-- Enter [127.0.0.1:4000](http://127.0.0.1:4000/) into your browser's address bar to preview your website.
-
 ### Adding your Resume
 
 - Drag your Resume into your website folder, if you have not yet done so.
-- Rename your Resume to the following: "index.md*".
+- Rename your Resume to the following: `index.md`.
 
 Finally, add this heading to the top of your Resume file:
 
@@ -73,6 +53,28 @@ Finally, add this heading to the top of your Resume file:
     ---
 
 This allows Jekyll to recognize your file and apply your theme.
+
+### Demoing in Jekyll
+
+Using Github Pages exclusively can be annoying if you want to quickly preview changes to your website, as it can take several minutes to update. Here we describe how to set up a local website using Jekyll.
+
+- Download the [Researcher Theme](https://github.com/tristand246/tristand246.github.io#more-resources) by clicking the green "*Code*" button, then "*Download ZIP*".
+- Unzip and drag the `_layouts`, `_sass`, and `css` folders into your own website folder.
+
+Create a new file in your folder named `_config.yml` and paste the following contents into it:
+
+    title: "your resume title"
+    url: "<your github username>.github.io"
+    baseurl: ""
+
+You **MUST** modify the URL variable to fit with your username. Example: `url: "bob123.github.io"`
+
+- Open a new command prompt.
+- Enter `jekyll s -s "<path to your website folder>"`
+    - Example of a file path: `"C:\Users\Bob\Desktop\website folder"`.
+- Enter [127.0.0.1:4000](http://127.0.0.1:4000/) into your browser's address bar to preview your website.
+
+Now you are able to preview your website!
 
 ## Public Hosting
 
@@ -86,6 +88,8 @@ In order to get our files on Github we must:
 - Access your newly created repository and select "*Add file*" then "*Upload files*" and drag your folder contents into the dropbox and upload.
 
 ### Hosting on Github Pages
+
+Now we will set up your Resume for public access. There are great advantages to hosting a Resume website as opposed to storing and submitting a PDF. As expressed in Andrew Etters book, [Modern Technical Writing](https://github.com/tristand246/tristand246.github.io#more-resources), websites can be updated almost instantaniously. Whereas a PDF needs to be resubmitted and version control is harder to maintain, especially if you keep multiple versions saved at once. To do this, there are several things we must install and setup beforehand.
 
 - Click on "*Settings*" in your newly created repository.
 - Click "*Pages*" on the options list to the left.
