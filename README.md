@@ -1,5 +1,7 @@
 # Public Resume Website Hosting
 
+![website demo gif](demo.gif)
+
 We will be publically hosting a Resume written in markdown. There are great advantages to hosting a Resume website as opposed to storing and submitting a PDF. As expressed in Andrew Etters book, [Modern Technical Writing](https://github.com/tristand246/tristand246.github.io#more-resources), websites can be updated almost instantaniously. Whereas a PDF needs to be resubmitted and version control is harder to maintain, especially if you keep multiple versions saved at once. To do this, there are several things we must install and setup beforehand.
 
 ## Getting started
@@ -68,10 +70,9 @@ Finally, add this heading to the top of your Resume file:
 
     ---
     layout: default
-    title: your title
     ---
 
-Feel free to customize the title to your liking, but **do not** change the layout.
+This allows Jekyll to recognize your file and apply your theme.
 
 ## Public Hosting
 
