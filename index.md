@@ -1,9 +1,7 @@
 ---
 layout: default
-title: "Resume"
+title: "Tristan Dyck"
 ---
-
-# Tristan **Dyck**
 
 ## Contact
 - (204)362-3054
