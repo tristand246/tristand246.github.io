@@ -95,11 +95,15 @@ Now your site will be live as soon as Github is finished building, which may tak
 
 - [Modern Technical Writing by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS).
 - [Markdown Documentation](https://markdown-guide.readthedocs.io/en/latest/).
+- [Researcher Theme](https://github.com/ankitsultana/researcher).
 
 ## Authors and Acknowledgements
 
 - Tristan Dyck, Author.
-- Dean Attali, Beautiful Jekyll Theme.
+- Noah Curoe, Editor.
+- Kunal Rajpal, Editor.
+- Alborz Khakbazan, Editor.
+- Ankit Sultana, Researcher Jekyll Theme.
 
 ## FAQ
 
