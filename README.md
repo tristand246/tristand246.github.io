@@ -6,7 +6,7 @@ We will be publically hosting a Resume written in markdown.
 
 ## Getting started
 
-This walkthrough is intended for Windows, the process of setting up on other operating systems may vary.
+This walkthrough is intended for Windows, the process of setting up on other operating systems may vary. Firstly:
 
 - Create a new folder, this will hold all our necessary files in order to host the Resume.
 
@@ -78,7 +78,7 @@ Now you are able to preview your website!
 
 ## Public Hosting
 
-We are going to use Github pages to publicly host the Resume.
+Now we will set up your website for public access. There are great advantages to hosting a Resume website as opposed to storing and submitting a PDF. As expressed in Andrew Etters book, [Modern Technical Writing](https://github.com/tristand246/tristand246.github.io#more-resources), websites can be updated almost instantaniously. Whereas a PDF needs to be resubmitted and version control is harder to maintain, especially if you keep multiple versions saved at once.
 
 ### Uploading to Github
 
@@ -88,8 +88,6 @@ In order to get our files on Github we must:
 - Access your newly created repository and select "*Add file*" then "*Upload files*" and drag your folder contents into the dropbox and upload.
 
 ### Hosting on Github Pages
-
-Now we will set up your Resume for public access. There are great advantages to hosting a Resume website as opposed to storing and submitting a PDF. As expressed in Andrew Etters book, [Modern Technical Writing](https://github.com/tristand246/tristand246.github.io#more-resources), websites can be updated almost instantaniously. Whereas a PDF needs to be resubmitted and version control is harder to maintain, especially if you keep multiple versions saved at once. To do this, there are several things we must install and setup beforehand.
 
 - Click on "*Settings*" in your newly created repository.
 - Click "*Pages*" on the options list to the left.
