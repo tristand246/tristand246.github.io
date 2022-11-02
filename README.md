@@ -1,6 +1,6 @@
 # Public Resume Website Hosting
 
-We will be publically hosting a Resume written in markdown. There are great advantages to hosting a Resume website as opposed to storing and submitting a PDF. Websites can be updated almost instantaniously, whereas a PDF needs to be resubmitted and version control is harder to maintain, especially if you keep multiple versions saved at once. To do this, there are several things we must install and setup beforehand.
+We will be publically hosting a Resume written in markdown. There are great advantages to hosting a Resume website as opposed to storing and submitting a PDF. As expressed in Andrew Etters book, [Modern Technical Writing](https://github.com/tristand246/tristand246.github.io#more-resources), websites can be updated almost instantaniously. Whereas a PDF needs to be resubmitted and version control is harder to maintain, especially if you keep multiple versions saved at once. To do this, there are several things we must install and setup beforehand.
 
 ## Getting started
 
@@ -10,8 +10,7 @@ This walkthrough is intended for Windows, the process of setting up on other ope
 
 ### Prerequisites
 
-- A [Windows](https://www.microsoft.com/en-ca/software-download/windows10) compatible system.
-- The latest version of [Ruby](https://rubyinstaller.org/downloads/).
+- The latest version of [Ruby Devkit](https://rubyinstaller.org/downloads/).
 - An editor capable of editing markdown, such as [Visual Studio Code](https://code.visualstudio.com/).
 - A valid [Github](https://github.com/) account.
 
@@ -44,7 +43,7 @@ Now you can get started writing your Resume using Markdown, refer to More Resour
 
 Using Github Pages exclusively can be annoying if you want to quickly preview changes to your website, as it can take several minutes to update. Here we describe how to set up a local website using Jekyll.
 
-- Download the [Researcher Theme](https://github.com/ankitsultana/researcher) by clicking the green "*Code*" button, then "*Download ZIP*".
+- Download the [Researcher Theme](https://github.com/tristand246/tristand246.github.io#more-resources) by clicking the green "*Code*" button, then "*Download ZIP*".
 - Drag the "*_layouts*", "*_sass*", and "*css*" folders into your own.
 
 Create a new file named "*_config.yml*" and paste the following contents into it:
@@ -106,10 +105,11 @@ Now your site will be live as soon as Github is finished building, which may tak
 - Kunal Rajpal, Editor.
 - Alborz Khakbazan, Editor.
 - Ankit Sultana, Researcher Jekyll Theme.
+- Andrew Etter, Modern Technical Writing.
 
 ## FAQ
 
 - ***Q:*** Can I use something else than Github Pages for hosting?
     - ***A:*** Yes, there are many ways to host a website. Including using your own domain name and self hosting, or using a different hosting service, such as [Codeberg Pages](https://codeberg.page/).
 - ***Q:*** Can other people access my website when hosted on Jekyll?
-    - ***A:*** Not if you hosted it with the method shown in this readme. It is possible to allow local access to your Jekyll hosted website by using a different command for hosting, such as `bundler exec jekyll s --host 0.0.0.0 --port 4000`. Furthermore, public access can be allowed by [port forwarding](https://portforward.com/) the port you choose to host with.
+    - ***A:*** Not if you hosted it with the method shown in this readme. It is possible to allow local access to your Jekyll hosted website by using a different command for hosting, such as `jekyll s --host 0.0.0.0 --port <port here>`. Furthermore, public access can be allowed by [port forwarding](https://portforward.com/) the port you choose to host with.
