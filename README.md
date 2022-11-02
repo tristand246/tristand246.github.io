@@ -32,7 +32,7 @@ This will install Jekyll. We then type the following on a **new** command prompt
 
 ### Writing a Resume in Markdown and Visual Studio Code
 
-Writing Markdown within Visual Studio Code is superior to regular text editors as it allows you to preview your documents. The book [Modern Technical Writing](https://github.com/tristand246/tristand246.github.io#more-resources) by Andrew Etter, highly advises writing in light markup languages, like Markup, as opposed to more verbose langauges such as HTML and CSS. Writing in these more verbose languages requires much more time and effort to reach the same end goal. They require more tedious work, which creates more opportunities for mistakes to be made. Hence we are creating a Resume in Markdown, to do so follow these instructions:
+Writing Markdown within Visual Studio Code is superior to regular text editors as it allows you to preview your documents. The book [Modern Technical Writing](https://github.com/tristand246/tristand246.github.io#more-resources) by Andrew Etter, highly advises writing in light markup languages, like Markup, as opposed to more verbose langauges such as HTML and CSS. Writing in these more verbose languages requires much more time and effort to reach the same end goal. They require more tedious work, which creates more opportunities for mistakes to be made. Hence we are creating a Resume in Markdown with these instructions:
 
 - Open Visual Studio Code
 - Click "*File*" at the top left, and select "*New File*"
