@@ -114,5 +114,5 @@ Now your site will be live as soon as Github is finished building, which may tak
 
 - ***Q:*** Can I use something else than Github Pages for hosting?
     - ***A:*** Yes, there are many ways to host a website. Including using your own domain name and self hosting, or using a different hosting service, such as [Codeberg Pages](https://codeberg.page/).
-- ***Q:*** Can other people access my website when hosted on Jekyll?
-    - ***A:*** Not if you hosted it with the method shown in this readme. It is possible to allow local access to your Jekyll hosted website by using a different command for hosting, such as `jekyll s --host 0.0.0.0 --port <port here>`. Furthermore, public access can be allowed by [port forwarding](https://portforward.com/) the port you choose to host with.
+- ***Q:*** Why is my Resume not showing up?
+    - ***A:*** Your resume needs to be named as `index.md`, otherwise it will not show up, and needs the heading as described in [Setup](https://github.com/tristand246/tristand246.github.io#setup).
